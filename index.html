@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <main class=”apresentacao”></main>
+        <h1>Decodificador de Texto - challenge logica de programaçao</h1>
+       
+    <div class="input-section">
+        <textarea id="input-text" placeholder="Digite sue texto aqui" oninput="validateInput()"></textarea>
+        <div class="buttons">
+            <button class="action-button" onclick="criptografar()">Criptografar</button>
+            <button class="action-button" onclick="descriptografar()">Descriptografar</button>
+        </div>
+        <button id="copy-button" class="action-button" onclick="copiarTexto()">Copiar Texto</button>
+    </div>
+        <textarea id="output-text" placeholder="Resultado" readonly></textarea>
+    </div>
+    <footer>
+        <p>&copy; 2024 Kelly Ramos</p>
+    </footer>
+    <div class="images">
+        <img src="imagem.png" alt="Computador Feminino" class="responsive-image">
+        <img src="notebook.png" alt="Caderno Feminino" class="responsive-image">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
